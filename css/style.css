@@ -1,0 +1,210 @@
+body,h1,p,input,textarea,select,option {
+  margin: 0px;
+  padding: 0px;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+ /* background: #3d3d3d */
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.div-h1 {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.div-h1 h1 {
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+} 
+
+.abrir{
+  text-align: center;
+}
+.abrir button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: none;
+  outline: none;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.classificar {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+.criar {
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .3);
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  
+}
+
+
+.criar-div {
+ margin-right: 10px;
+ margin-top: 20px;
+ max-width: 300px;
+ height: 255px;
+ color: #000;
+ border: 1px solid #000;
+ box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.criar-div.ativo {
+  animation: moving .5s forwards ;
+}
+
+
+@keyframes moving {
+  0% {
+    opacity: 0;
+    transform: translateX(-1000px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.fechar {
+ 
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+   top: -10px;
+   right: -5px;
+}
+ .fechar button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #000;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, .3);
+  color: #fff;
+  cursor: pointer;
+  z-index: 0;
+}
+  
+.renomear {
+ width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+   top: -10px;
+   right: 30px;
+}
+
+.renomear button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #000;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, .3);
+  color: #fff;
+  cursor: pointer;
+  z-index: 0;
+}
+.renomear  img {
+  
+ filter: invert(100%);
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 4px;
+  right: 4px;
+}
+
+input::-webkit-input-placeholder {
+  color: #000;
+  font-size: 12px;
+}
+
+.cor-etiqueta,.cor-etiqueta select {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px; 
+}
+
+.criar-div input{
+  outline: none;
+  background: none;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, .3);
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 14px;
+  margin-left: 20px;
+  padding: .2rem;
+  color: #000;
+
+}
+.titulo{
+  margin: 0 auto;
+  background: red;
+  color: red;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.numero {
+  font-size: 1px;
+  width: 30%;
+}
+textarea::-webkit-input-placeholder {
+  color: #000;
+}
+textarea {
+  margin-top: 10px;
+  background: none;
+  width: 80%;
+  height: 100px;
+  margin-left: 20px;
+  border: 1px solid rgba(0, 0, 0, .3);
+  color: #000;
+  font-size: 16px;
+  outline: none;
+}
+
+.button-confirmar {
+  outline: none;
+  background: none;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, .3);
+  margin: 0 auto;
+  margin-top: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 20px;
+  padding: .5rem;
+  color: #000;
+}

@@ -1,0 +1,36 @@
+{
+  "todolist": [
+    {
+      "title": "sssa",
+      "priority": "2",
+      "description": "bbba",
+      "color": "#568bff",
+      "id": 1
+    },
+    {
+      "title": "ssas",
+      "priority": "12",
+      "description": "asasas",
+      "color": "#ffff56",
+      "id": 2
+    }
+  ],
+  "cores": [
+    {
+      "value": "#37cc41",
+      "label": "Verde"
+    },
+    {
+      "value": "#ffff56",
+      "label": "Amarelo"
+    },
+    {
+      "value": "#ff7575",
+      "label": "Vermelho"
+    },
+    {
+      "value": "#568bff",
+      "label": "Azul"
+    }
+  ]
+}
